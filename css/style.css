@@ -1,0 +1,469 @@
+@import url("reset.css");
+/*-------------------*/
+
+body {
+background-color: black;
+z-index: 160;
+}
+h1{
+
+}
+p{
+
+}
+
+/*==============================
+------------NAVBAR--------------
+==============================*/
+.sidebar {
+  height: 25%;
+  background-color: #000;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'Droid Serif', serif;
+  display: block;
+
+}
+.sidebar a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  cursor:auto;
+
+}
+
+.sidebar h1{
+  color: #8b0000;
+  font-size:3em;
+  padding-bottom:10px;
+
+
+}
+
+.sidebar a:hover:not(.active) {
+  border-bottom: solid 1px red;
+  border-top: solid 1px red;
+}
+
+/*--------------------------------------*/
+/*--------------MAIN DIV----------------*/
+/*--------------------------------------*/
+
+.main{
+  background-image: url("../img/code.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+  height:750px;
+  border-top: solid 1px red;
+  opacity: .6;
+}
+
+.main h1 {
+  color:white;
+  font-size:4em;
+  text-align:center;
+  padding-top:40px;
+  font-family: 'Cinzel', serif;
+}
+.main img {
+  text-align: center;
+}
+
+/*--------------------------------------*/
+/*-----------Portfolio Div--------------*/
+/*--------------------------------------*/
+
+.port{
+  background-image: url("../img/keyboard.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+  height:inherit;
+  border-top: solid 2px red;
+  text-align: center;
+
+}
+
+.port h1 {
+  font-size: 5em;
+  color: #ededed;
+  text-shadow: black 3px 3px 3px;
+  padding-bottom: 20px;
+
+}
+
+.scrshots {
+  text-align: center;
+  display: block;
+}
+
+.port h2 {
+font-size: 2em;
+color:white;
+text-shadow: black 2px 2px 2px;
+}
+
+.port img {
+  height:200px;
+  width:300px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+/*--------------------------------------*/
+/*---------Game Dev Port Div------------*/
+/*--------------------------------------*/
+.port2 {
+  background-image: url("../img/1.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+  height: 1000px;
+  border-top: solid 2px red;
+  text-align:center
+}
+
+.port2 h1 {
+  font-size: 5em;
+  color: #FFA500;
+  text-shadow: black 3px 3px 3px;
+  padding-bottom: 20px;
+
+}
+
+.scrshots2 {
+  text-align: center;
+  display: block;
+}
+
+.port2 h2 {
+font-size: 2em;
+color:white;
+text-shadow: black 2px 2px 2px;
+}
+
+.port2 img {
+  height:200px;
+  width:300px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+
+
+
+
+
+/*--------------------------------------*/
+/*------------Contact Div---------------*/
+/*--------------------------------------*/
+
+.contact {
+  background-image: url("../img/binary.png");
+  background-size:cover;
+  background-attachment: fixed;
+  height: inherit;
+  border-top: solid 2px red;
+  text-align: center;padding-bottom: 100px;
+}
+
+
+.contact h1 {
+  color:lightgray;
+  padding-top: 50px;
+  font-size: 3em;
+}
+
+.contact p{
+  color:lightgray;
+  font-size: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+/*=====================================
+-=-_-=-_-=-_-=-_-=-_-=-_-=-_-=-_-=-_-=-
+------------Tablet Screen--------------
+-=-_-=-_-=-_-=-_-=-_-=-_-=-_-=-_-=-_-=-
+=====================================*/
+@media (min-width: 500px) {
+/*------------------------------------*/
+
+.sidebar {
+
+}
+
+.sidebar a{
+  display: inline-block;
+  width:20%;
+  font-size: 1.4em;
+  transition: 1s;
+}
+
+.sidebar h1 {
+  display: inline-block;
+  width:30%;
+  font-size: 2.5em;
+  border-bottom: 0;
+}
+
+.sidebar a:hover:not(.active) {
+transform: scale(1.2);
+border-top: 0;
+border-bottom: 0;
+}
+
+/*--------------------------------------*/
+/*--------------MAIN DIV----------------*/
+/*--------------------------------------*/
+
+/*--------------------------------------*/
+/*--------------ABOUT DIV---------------*/
+/*--------------------------------------*/
+
+/*--------------------------------------*/
+/*-----------Portfolio Div--------------*/
+/*--------------------------------------*/
+  .port {
+    text-align: center;
+    height:inherit;
+
+  }
+
+  .port h1{
+    text-align: center;
+    font-size:6em;
+  }
+
+  .port h2 {
+    font-size:3em;
+  }
+
+  .port img {
+    height: 90%;
+    width: 90%;
+  }
+
+/*--------------------------------------*/
+/*---------Game Dev Port Div------------*/
+/*--------------------------------------*/
+.port2 {
+  text-align: center;
+  height:inherit;
+
+}
+
+.port2 h1{
+  text-align: center;
+  font-size:6em;
+}
+
+.port2 h2 {
+  font-size:3em;
+}
+
+.port2 img {
+  height: 90%;
+  width: 90%;
+}
+}
+/*--------------------------------------*/
+/*------------Contact Div---------------*/
+/*--------------------------------------*/
+
+
+/*
+
+
+
+
+
+
+
+
+*/
+
+/*=====================================
+-=-_-=-_-=-_-=-_-=-_-=-_-=-_-=-_-=-_-=-
+-----------Computer Screen-------------
+-=-_-=-_-=-_-=-_-=-_-=-_-=-_-=-_-=-_-=-
+=====================================*/
+@media (min-width: 1000px) {
+/*------------------------------------*/
+
+
+
+/*==============================
+------------NAVBAR--------------
+==============================*/
+.sidebar {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  padding-top: 40px;
+  border-right: solid 1px #262626;
+  display: block;
+}
+.sidebar a{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  display: block;
+  width:100%;
+}
+
+.sidebar h1{
+  font-size:50px;
+  padding-bottom:20px;
+  display: block;
+  width:100%;
+
+}
+
+.sidebar a:hover:not(.active) {
+  border-bottom: solid 1px red;
+  border-top: solid 1px red;
+  transform: none;
+}
+
+/*--------------------------------------*/
+/*--------------MAIN DIV----------------*/
+/*--------------------------------------*/
+
+.main{
+  z-index:165;
+  width:75%;
+  float:right;
+  border-top: 0;
+}
+
+.main h1 {
+  font-size:4em;
+  padding-top:40px;
+}
+
+/*--------------------------------------*/
+/*--------------ABOUT DIV---------------*/
+/*--------------------------------------*/
+
+.bio{
+  z-index:165;
+  width:75%;
+  float:right;
+  height: 750px;
+  border-top: solid 5px red;
+}
+
+/*--------------------------------------*/
+/*-----------Portfolio Div--------------*/
+/*--------------------------------------*/
+
+.port{
+  z-index:165;
+  width:75%;
+  float:right;
+  border-top: solid 5px red;
+  height: inherit;
+}
+.port h2 {
+padding-bottom:10px;
+font-size:3em;
+}
+
+.port img {
+
+}
+
+.scrshots {
+}
+
+.photo {
+  display:inline-block;
+  width: 47%;
+  height: 300px;
+  padding: 10px 5px;
+}
+#photo{
+  width:80%;
+  height: 400px;
+}
+
+
+/*--------------------------------------*/
+/*-------------Port2 Div----------------*/
+/*--------------------------------------*/
+.port2 {
+  height: 1000px;
+  z-index:165;
+  width:75%;
+  float:right;
+  border-top: solid 5px red;
+}
+
+.port2 h2 {
+padding-bottom:10px;
+font-size:3em;
+}
+
+.port2 img {
+
+}
+
+ .scrshots2 {
+}
+
+.photo2 {
+  display:inline-block;
+  width: 47%;
+  height: 300px;
+  padding: 10px 5px;
+}
+#photo2{
+  width:80%;
+  height: 400px;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------*/
+/*------------Contact Div---------------*/
+/*--------------------------------------*/
+
+.contact {
+  z-index:165;
+  width:75%;
+  float:right;
+  height:inherit;
+  border-top: solid 5px red;
+  text-align: center;
+}
+
+.contact h1 {
+  color:lightgray;
+  padding-top: 50px;
+  font-size: 5em;
+}
+
+.contact p{
+  color:lightgray;
+  font-size: 3em;
+}
+/*---------------*/
+}
+/*---------------*/
